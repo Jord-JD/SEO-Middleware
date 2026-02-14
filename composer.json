@@ -1,26 +1,37 @@
 {
-    "name": "divineomega/seo-middleware",
-    "description": "SEO Middleware - middleware to redirect to HTTPS when in production, and remove www. from URLs",
-    "keywords": ["SEO", "middleware", "SEO middleware", "HTTPS", "SSL", "redirect", "www."],
-    "homepage": "https://github.com/DivineOmega/SEO-Middleware",
-    "license": "LGPL-3.0-only",
-    "require": {
-        "php": ">=5.5.9",
-        "laravel/framework": "^5.0||^6.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\SeoMiddleware\\": "src/"
-        }
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "jord-jd/seo-middleware",
+  "description": "SEO Middleware - middleware to redirect to HTTPS when in production, and remove www. from URLs",
+  "keywords": [
+    "SEO",
+    "middleware",
+    "SEO middleware",
+    "HTTPS",
+    "SSL",
+    "redirect",
+    "www."
+  ],
+  "homepage": "https://github.com/Jord-JD/SEO-Middleware",
+  "license": "LGPL-3.0-only",
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "^5.0||^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\SeoMiddleware\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "replace": {
+    "divineomega/seo-middleware": "self.version"
+  }
 }
