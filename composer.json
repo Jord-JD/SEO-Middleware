@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DivineOmega\\SeoMiddleware\\": "src/"
+      "JordJD\\SeoMiddleware\\": "src/"
     }
   },
   "config": {
@@ -26,12 +26,13 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "3.0-dev"
     }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "replace": {
     "divineomega/seo-middleware": "self.version"
-  }
+  },
+  "require-dev": {}
 }

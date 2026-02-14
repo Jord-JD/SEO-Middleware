@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\SeoMiddleware\Http\Middleware;
+namespace JordJD\SeoMiddleware\Http\Middleware;
 
 use Closure;
 

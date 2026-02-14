@@ -13,8 +13,8 @@ This package contains various middleware classes that can be uses with Laravel
 
 1. Run `composer require jord-jd/seo-middleware`.
 2. In the `$middleware` array in your `app/Http/Kernel.php` file:
-  * For HTTP to HTTPS redirects, add `\DivineOmega\SeoMiddleware\Http\Middleware\HttpsOnly::class`.
-  * For removal of `www.` from requests, add `\DivineOmega\SeoMiddleware\Http\Middleware\RemoveWww::class`.
+  * For HTTP to HTTPS redirects, add `\JordJD\SeoMiddleware\Http\Middleware\HttpsOnly::class`.
+  * For removal of `www.` from requests, add `\JordJD\SeoMiddleware\Http\Middleware\RemoveWww::class`.
 3. Remember to set the `APP_ENV` variable to `prod` (in the project's `.env` file) when the application is running in production. Some middleware will only function when this is set to allow for easier local development.
 
 ## Available Middleware Classes
